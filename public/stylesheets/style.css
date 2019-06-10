@@ -13,21 +13,60 @@ a {
     margin: 12px 12px 12px 0px;
 }
 
+.arrow-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.arrow-vertical-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 2px;
+}
+
 .arrow-right {
     width: 0; 
     height: 0;
-    border-top: 12px solid transparent;
-    border-bottom: 12px solid transparent;
-    border-left: 12px solid #36454f;
-    margin-left: 12px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #36454f;
+}
+
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid black;
+    margin-bottom: 2px;
+}
+  
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #f00;
+    margin-top: 2px;
 }
 
 .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(16, 64px);
+    grid-template-rows: repeat(16, 48px);
     justify-items: stretch;
     align-items: stretch;
+}
+
+.text-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: center;
+    padding-top: 12px;
 }
 
 .bottom-line {
