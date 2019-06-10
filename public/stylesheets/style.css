@@ -8,7 +8,18 @@ a {
 }
 
 .header {
-    margin: 24px;
+    display: flex;
+    flex-direction: row;
+    margin: 12px 12px 12px 0px;
+}
+
+.arrow-right {
+    width: 0; 
+    height: 0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 12px solid #36454f;
+    margin-left: 12px;
 }
 
 .container {
@@ -39,398 +50,334 @@ a {
 #no-no {
     grid-row: 1;
     grid-column: 1;
-    background-color: red;
 }
 
 #no-one {
     grid-row: 1;
     grid-column: 2;
-    background-color: greenyellow;
 }
 
 #no-two {
     grid-row: 1;
     grid-column: 3;
-    background-color: aquamarine;
 }
 
 #no-three {
     grid-row: 1;
     grid-column: 4;
-    background-color: yellow
 }
 
 /********* Row 1 ********/
 #one-no {
     grid-row: 2;
     grid-column: 1;
-    background-color: red;
 }
 
 #one-one {
     grid-row: 2;
     grid-column: 2;
-    background-color: greenyellow;
 }
 
 #one-two {
     grid-row: 2;
     grid-column: 3;
-    background-color: aquamarine;
 }
 
 #one-three {
     grid-row: 2;
     grid-column: 4;
-    background-color: yellow
 }
 
 /********* Row 2 ********/
 #two-no {
     grid-row: 3;
     grid-column: 1;
-    background-color: red;
 }
 
 #two-one {
     grid-row: 3;
     grid-column: 2;
-    background-color: greenyellow;
 }
 
 #two-two {
     grid-row: 3;
     grid-column: 3;
-    background-color: aquamarine;
 }
 
 #two-three {
     grid-row: 3;
     grid-column: 4;
-    background-color: yellow
 }
 
 /********* Row 3 ********/
 #three-no {
     grid-row: 4;
     grid-column: 1;
-    background-color: red;
 }
 
 #three-one {
     grid-row: 4;
     grid-column: 2;
-    background-color: greenyellow;
 }
 
 #three-two {
     grid-row: 4;
     grid-column: 3;
-    background-color: aquamarine;
 }
 
 #three-three {
     grid-row: 4;
     grid-column: 4;
-    background-color: yellow
 }
 
 /********* Row 4 ********/
 #four-no {
     grid-row: 5;
     grid-column: 1;
-    background-color: red;
 }
 
 #four-one {
     grid-row: 5;
     grid-column: 2;
-    background-color: greenyellow;
 }
 
 #four-two {
     grid-row: 5;
     grid-column: 3;
-    background-color: aquamarine;
 }
 
 #four-three {
     grid-row: 5;
     grid-column: 4;
-    background-color: yellow
 }
 
 /********* Row 5 ********/
 #five-no {
     grid-row: 6;
     grid-column: 1;
-    background-color: red;
 }
 
 #five-one {
     grid-row: 6;
     grid-column: 2;
-    background-color: greenyellow;
 }
 
 #five-two {
     grid-row: 6;
     grid-column: 3;
-    background-color: aquamarine;
 }
 
 #five-three {
     grid-row: 6;
     grid-column: 4;
-    background-color: yellow
 }
 
 /********* Row 6 ********/
 #six-no {
     grid-row: 7;
     grid-column: 1;
-    background-color: red;
 }
 
 #six-one {
     grid-row: 7;
     grid-column: 2;
-    background-color: greenyellow;
 }
 
 #six-two {
     grid-row: 7;
     grid-column: 3;
-    background-color: aquamarine;
 }
 
 #six-three {
     grid-row: 7;
     grid-column: 4;
-    background-color: yellow
 }
 
 /********* Row 7 ********/
 #seven-no {
     grid-row: 8;
     grid-column: 1;
-    background-color: red;
 }
 
 #seven-one {
     grid-row: 8;
     grid-column: 2;
-    background-color: greenyellow;
 }
 
 #seven-two {
     grid-row: 8;
     grid-column: 3;
-    background-color: aquamarine;
 }
 
 #seven-three {
     grid-row: 8;
     grid-column: 4;
-    background-color: yellow
 }
 
 /********* Row 8 ********/
 #eight-no {
     grid-row: 9;
     grid-column: 1;
-    background-color: red;
 }
 
 #eight-one {
     grid-row: 9;
     grid-column: 2;
-    background-color: greenyellow;
 }
 
 #eight-two {
     grid-row: 9;
     grid-column: 3;
-    background-color: aquamarine;
 }
 
 #eight-three {
     grid-row: 9;
     grid-column: 4;
-    background-color: yellow
 }
 
 /********* Row 9 ********/
 #nine-no {
     grid-row: 10;
     grid-column: 1;
-    background-color: red;
 }
 
 #nine-one {
     grid-row: 10;
     grid-column: 2;
-    background-color: greenyellow;
 }
 
 #nine-two {
     grid-row: 10;
     grid-column: 3;
-    background-color: aquamarine;
 }
 
 #nine-three {
     grid-row: 10;
     grid-column: 4;
-    background-color: yellow
 }
 
 /********* Row 10 ********/
 #ten-no {
     grid-row: 11;
     grid-column: 1;
-    background-color: red;
 }
 
 #ten-one {
     grid-row: 11;
     grid-column: 2;
-    background-color: greenyellow;
 }
 
 #ten-two {
     grid-row: 11;
     grid-column: 3;
-    background-color: aquamarine;
 }
 
 #ten-three {
     grid-row: 11;
     grid-column: 4;
-    background-color: yellow
 }
 
 /********* Row 11 ********/
 #eleven-no {
     grid-row: 12;
     grid-column: 1;
-    background-color: red;
 }
 
 #eleven-one {
     grid-row: 12;
     grid-column: 2;
-    background-color: greenyellow;
 }
 
 #eleven-two {
     grid-row: 12;
     grid-column: 3;
-    background-color: aquamarine;
 }
 
 #eleven-three {
     grid-row: 12;
     grid-column: 4;
-    background-color: yellow
 }
 
 /********* Row 12 ********/
 #twelve-no {
     grid-row: 13;
     grid-column: 1;
-    background-color: red;
 }
 
 #twelve-one {
     grid-row: 13;
     grid-column: 2;
-    background-color: greenyellow;
 }
 
 #twelve-two {
     grid-row: 13;
     grid-column: 3;
-    background-color: aquamarine;
 }
 
 #twelve-three {
     grid-row: 13;
     grid-column: 4;
-    background-color: yellow
 }
 
 /********* Row 13 ********/
 #thirteen-no {
     grid-row: 14;
     grid-column: 1;
-    background-color: red;
 }
 
 #thirteen-one {
     grid-row: 14;
     grid-column: 2;
-    background-color: greenyellow;
 }
 
 #thirteen-two {
     grid-row: 14;
     grid-column: 3;
-    background-color: aquamarine;
 }
 
 #thirteen-three {
     grid-row: 14;
     grid-column: 4;
-    background-color: yellow
 }
 
 /********* Row 14 ********/
 #fourteen-no {
     grid-row: 15;
     grid-column: 1;
-    background-color: red;
 }
 
 #fourteen-one {
     grid-row: 15;
     grid-column: 2;
-    background-color: greenyellow;
 }
 
 #fourteen-two {
     grid-row: 15;
     grid-column: 3;
-    background-color: aquamarine;
 }
 
 #fourteen-three {
     grid-row: 15;
     grid-column: 4;
-    background-color: yellow
 }
 
 /********* Row 15 ********/
 #fifteen-no {
     grid-row: 16;
     grid-column: 1;
-    background-color: red;
 }
 
 #fifteen-one {
     grid-row: 16;
     grid-column: 2;
-    background-color: greenyellow;
 }
 
 #fifteen-two {
     grid-row: 16;
     grid-column: 3;
-    background-color: aquamarine;
 }
 
 #fifteen-three {
     grid-row: 16;
     grid-column: 4;
-    background-color: yellow
 }
