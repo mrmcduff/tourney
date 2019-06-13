@@ -126,6 +126,10 @@ a {
     padding-top: 12px;
 }
 
+.team {
+    margin-left: 8px;
+}
+
 .bottom-line {
     border-bottom: 2px solid #36454f;
 }
